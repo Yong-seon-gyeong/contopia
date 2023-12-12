@@ -162,6 +162,19 @@ body.menu-open {
     .visual_text p {
         font-size: calc(100vw * (30 / 430));
     }
+
+    .visual_text p span{
+        display: none;
+    }
+    
+    .visual_text p {
+        top: 35%;
+        transform: translate(-50%, 0);
+    }
+
+    .scroll_down {
+        bottom: 20%;
+    }
 }
 
 /* container */
@@ -298,9 +311,7 @@ body.menu-open {
     #business_introduce>h2 {
         font-size: calc(100vw * (40 / 1180));
     }
-}
 
-@media (max-width:1000px) {
     .business_menu_wrap {
         display: none;
     }
@@ -516,9 +527,7 @@ body.menu-open {
     #portfolio>h2 {
         font-size: calc(100vw * (40 / 1180));
     }
-}
 
-@media (max-width:1000px) {
     .video_wrap li {
         width: 50%;
     }
@@ -528,7 +537,7 @@ body.menu-open {
     }
 
     .video_wrap li p {
-        font-size: calc(100vw * (22 / 1000));
+        font-size: calc(100vw * (22 / 1180));
     }
 }
 
