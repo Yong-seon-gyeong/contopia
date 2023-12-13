@@ -300,7 +300,7 @@ body.menu-open {
 
     .history-cont ul li p, .history-cont ul li h2 {
         margin-bottom: calc(100vw * (24 / 768));
-        font-size: calc(100vw * (36 / 768));
+        font-size: calc(100vw * (32 / 768));
         opacity: 1;
     }
 
