@@ -108,6 +108,8 @@ body.menu-open {
 
 .company-title div p{
     font-size: 1.5rem;
+    line-height: 3rem;
+
 }
 
 .s1 div p{
@@ -221,7 +223,7 @@ td::before{
 
     .company-title h5{
         width: 100%;
-        font-size: calc(100vw * (32 / 768));
+        font-size: calc(100vw * (35 / 768));
         padding-bottom: 15px;
     }
     .company-title div{
@@ -230,14 +232,15 @@ td::before{
     }
 
     .company-title div h2{
-        font-size: calc(100vw * (42 / 768));
+        width: 95%;
+        font-size: calc(100vw * (45 / 768));
     }
 
     .company-title div p{
-        font-size: calc(100vw * (36 / 768));
+        font-size: calc(100vw * (32 / 768));
     }
 
     td {
-        font-size: calc(100vw * (36 / 768));
+        font-size: calc(100vw * (32 / 768));
     }
 }
