@@ -28,6 +28,7 @@ body {
     color: #333;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
+    line-height: 3em;
     overflow-x: hidden;
 }
 
