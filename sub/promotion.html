@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contopia</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/promotion.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/typed.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header" class="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/header/logo.svg" alt="">
+                </a>
+            </h1>
+            <nav class="nav">
+                <!-- pc_menu -->
+                <ul class="gnb">
+                    <li>
+                        <a href="../sub/company.html">회사소개</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/company.html">회사개요</a></li>
+                                    <li><a href="../sub/history.html">회사연혁</a></li>
+                                    <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">사업분야</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="#">영상제작</a></li>
+                                    <li><a href="#">실시간 스트리밍</a></li>
+                                    <li><a href="#">오프라인 행사</a></li>
+                                    <li><a href="#">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">포트폴리오</a>
+                    </li>
+                    <li>
+                        <a href="../sub/promotion.html">홍보센터</a>
+                    </li>
+                    <li>
+                        <a href="#">상담문의</a>
+                    </li>
+                </ul>
+
+                <!-- mobile_menu -->
+                <div class="m_nav">
+                    <a class="menu-trigger" href="javascript:return false;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <ul class="m_menu">
+                        <li class="m_logo">
+                            <a href="../index.html">
+                                <img src="../images/header/logo.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="m_gnb">
+                            <ul>
+                                <li>
+                                    <button></button>
+                                    <a href="javascript:return false;">회사소개</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/company.html">회사개요</a></li>
+                                        <li><a href="../sub/history.html">회사연혁</a></li>
+                                        <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="javascript:return false;">사업분야</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="#">영상제작</a></li>
+                                        <li><a href="#">실시간 스트리밍</a></li>
+                                        <li><a href="#">오프라인 행사</a></li>
+                                        <li><a href="#">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:return false;">포트폴리오</a>
+                                </li>
+                                <li>
+                                    <a href="../sub/promotion.html">홍보센터</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:return false;">상담문의</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- header_E -->
+
+        <div id="visual_banner">
+            <img src="../images/sub/history3.jpg" alt="">
+            <p>홍보센터</p>
+        </div>
+
+        <section class="pr">
+            <div class="search">
+                <div class="container">
+                    <div class="search-box">
+                        <input type="text" id="keyword" name="keyword" value="" placeholder="검색어를 입력해주세요"
+                            onfocus="this.placeholder=''" onblur="this.placeholder='검색어를 입력해주세요'">
+                        <button id="btn_search" class="btn-search" type="button"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <ol id="post_terms_list" class="item-tab">
+                    <li class="on"><a data-slug="" href="/pr">ALL</a></li>
+                    <li><a data-slug="notice" href="/pr/category/notice/">공지사항</a></li>
+                    <li><a data-slug="news" href="/pr/category/news/">뉴스</a></li>
+                </ol>
+                <ul id="post_list" data-post_type="post_pr" data-page_int="5" data-posts_per_page="12" data-post_scroll="200"
+                    class="pr-list item-list">
+                    <li><a href="#">
+                            <div class="img"><img src="../images/sub/promotion1.png">
+                            </div>
+                            <p>새싹-솔트룩스, ‘AI 개발자 분야 취업을 위한 새싹 온라인 취업 특강’ 개최</p>
+                            <div class="cate-box"><span class="cate">공지사항</span><span class="date">2023.11.24</span></div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img"><img src="../images/sub/promotion1.png">
+                            </div>
+                            <p>솔트룩스-NHN, AI 얼라이언스로 인공지능 산업 판 흔든다</p>
+                            <div class="cate-box"><span class="cate">뉴스</span><span class="date">2023.11.14</span></div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img"><img src="../images/sub/promotion1.png"></div>
+                            <p>솔트룩스, ‘NHN 다이퀘스트’ 인수로 국내 최대 AI 그룹 지위 확보</p>
+                            <div class="cate-box"><span class="cate">뉴스</span><span class="date">2023.11.14</span></div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img"><img src="../images/sub/promotion1.png">
+                            </div>
+                            <p>생성 AI 서비스 기업 ‘플루닛’, TV 광고 본격 공개…풍성한 이벤트도 진행</p>
+                            <div class="cate-box"><span class="cate">뉴스</span><span class="date">2023.11.07</span></div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="img"><img src="../images/sub/promotion1.png"></div>
+                            <p>넉넉한 마음으로 풍성한 한가위 보내시길 바랍니다</p>
+                            <div class="cate-box"><span class="cate">공지사항</span><span class="date">2023.09.27</span></div>
+                        </a></li>
+                </ul>
+                <!-- <nav class="navigation pagination" role="navigation">
+                    <h2 class="screen-reader-text">글 내비게이션</h2>
+                    <div class="nav-links" id="post_pagination"><a class="prev page-numbers disabled" data-paged="0"></a><span
+                            class="page-numbers current" data-paged="1">1</span><span class="page-numbers total"
+                            data-paged="26">26</span><a class="next page-numbers" data-paged="2"></a></div>
+                </nav> -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact_text">
+                <div class="title">
+                    <h2>궁금한 점이 있으신가요? <br> 지금 바로 물어보세요.</h2>
+                </div>
+                <h2 class="typing02"></h2>
+            </div>
+            <div class="contact_btn">
+                <a href="#">문의 바로가기</a>
+            </div>
+        </section>
+        <!-- contact_E -->
+    
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer_text">
+                    <ul>
+                        <li>대표이사:김주성</li>
+                        <li>사업자 등록번호:712-88-01847</li>
+                        <li>T.051-714-3580</li>
+                    </ul>
+                    <p>부산 해운대구 수영강변대로 140 810호 (우동, 부산문화콘텐츠컴플렉스)</p>
+                    <p>Copyright @2023~ Contopia. All rights reserved.</p>
+                    <p><a href="#">개인정보처리방침</a></p>
+                </div>
+                <div class="sns_link">
+                    <ul>
+                        <li><a href="https://www.youtube.com/@contopia" target="_blank">
+                                <img src="../images/footer/youtube.svg" alt="">
+                            </a></li>
+                        <li><a href="https://vimeo.com/showcase/9521706" target="_blank">
+                                <img src="../images/footer/vimeo.svg" alt="">
+                            </a></li>
+                        <li><a href="https://blog.naver.com/contopia" target="_blank">
+                                <img src="../images/footer/blog.svg" alt="">
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer_E -->
+    </div>
+    <script>
+        $(function () {
+            //tab
+            // $('.item-tab li').click(function(event) {
+            //     event.preventDefault();        
+            //     $('.item-tab li').removeClass('on');         
+            //     // $(this).closest('li').addClass('on');
+            //     $(this).addClass('on');
+            // });
+
+            // 위 코드를 순수 자바스크립트로 변경
+            var itemTab = document.querySelectorAll('.item-tab li');
+            for (var i = 0; i < itemTab.length; i++) {
+                itemTab[i].addEventListener('click', function (event) {
+                    event.preventDefault();
+                    for (var j = 0; j < itemTab.length; j++) {
+                        itemTab[j].classList.remove('on');
+                    }
+                    this.classList.add('on');
+                    // data-cate 속성을 이용하여 필터링
+                    var cate = this.getAttribute('data-cate');
+                    var item = document.querySelectorAll('.awards-list li');
+                    for (var k = 0; k < item.length; k++) {
+                        item[k].style.display = 'none';
+                        if (item[k].classList.contains(cate)) {
+                            item[k].style.display = 'block';
+                        } else if (cate == 'all') {
+                            item[k].style.display = 'block';
+                        }
+                    }
+                });
+            }
+        })
+
+        // contact typing
+            var ContactOptions = {
+                stringsElement: '#contact .title',
+                typeSpeed: 80,
+                startDelay: 1000,
+                loop: false,
+            }
+
+            var ContactTyped = new Typed('#contact .typing02', ContactOptions);
+            ContactTyped.stop();
+
+            if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact').height()) {
+                ContactTyped.start();
+            }
+
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact').height()) {
+                    ContactTyped.start();
+                }
+            });
+    </script>
+</body>
