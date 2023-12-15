@@ -65,7 +65,7 @@ body.menu-open {
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
-    line-height: 1.5em;
+    line-height: 1.5;
     color: #fff;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
@@ -178,7 +178,7 @@ body.menu-open {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .business_menu_wrap {
@@ -437,9 +437,8 @@ body.menu-open {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
+    padding: 0 0 50px;
 }
-
-
 
 .video_wrap {
     width: 100%;
@@ -447,7 +446,6 @@ body.menu-open {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 60px;
 }
 
 .video_wrap li {
@@ -580,6 +578,7 @@ body.menu-open {
 
     #portfolio>h2 {
         font-size: calc(100vw * (42 / 768));
+        padding: 0 19vw 50px;
     }
 
     .video_wrap li p {
@@ -602,7 +601,7 @@ body.menu-open {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
-    padding: 0 6vw 30px;
+    padding: 0 6vw 50px;
 }
 
 
@@ -689,7 +688,7 @@ body.menu-open {
 
     #marquee>h2 {
         font-size: calc(100vw * (42 / 768));
-        padding: 0 19vw 30px;
+        padding: 0 19vw 50px;
     }
 }
 
@@ -796,7 +795,7 @@ body.menu-open {
 
     #notice>h2 {
         font-size: calc(100vw * (42 / 768));
-        padding: 0 19vw 30px;
+        padding: 0 21vw 50px;
     }
 
     .notice_list {
