@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contopia</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/history.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/typed.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header" class="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                </a>
+            </h1>
+            <nav class="nav">
+                <!-- pc_menu -->
+                <ul class="gnb">
+                    <li>
+                        <a href="../sub/company.html">회사소개</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/company.html">회사개요</a></li>
+                                    <li><a href="../sub/history.html">회사연혁</a></li>
+                                    <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">사업분야</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="#">영상제작</a></li>
+                                    <li><a href="#">실시간 스트리밍</a></li>
+                                    <li><a href="#">오프라인 행사</a></li>
+                                    <li><a href="#">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">포트폴리오</a>
+                    </li>
+                    <li>
+                        <a href="../sub/promotion.html">홍보센터</a>
+                    </li>
+                    <li>
+                        <a href="../sub/inquiry.html">상담문의</a>
+                    </li>
+                </ul>
+
+                <!-- mobile_menu -->
+                <div class="m_nav">
+                    <a class="menu-trigger" href="javascript:return false;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <ul class="m_menu">
+                        <li class="m_logo">
+                            <a href="../index.html">
+                                <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                            </a>
+                        </li>
+                        <li class="m_gnb">
+                            <ul>
+                                <li>
+                                    <button></button>
+                                    <a href="javascript:return false;">회사소개</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/company.html">회사개요</a></li>
+                                        <li><a href="../sub/history.html">회사연혁</a></li>
+                                        <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="javascript:return false;">사업분야</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="#">영상제작</a></li>
+                                        <li><a href="#">실시간 스트리밍</a></li>
+                                        <li><a href="#">오프라인 행사</a></li>
+                                        <li><a href="#">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:return false;">포트폴리오</a>
+                                </li>
+                                <li>
+                                    <a href="../sub/promotion.html">홍보센터</a>
+                                </li>
+                                <li>
+                                    <a href="../sub/inquiry.html">상담문의</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- header_E -->
+
+        <div id="visual_banner">
+            <img src="../images/sub/history/history3.jpg" alt="회사연혁 대표이미지">
+            <p>회사연혁</p>
+        </div>
+
+        <section class="history">
+            <!-- mobile -->
+            <aside>
+                <ul class="anchor-menu">
+                    <li>
+                        <a href="#2023">
+                            <p value="2023">2023</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#2022">
+                            <p value="2022">2022</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#2021">
+                            <p value="2021">2021</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#2020">
+                            <p value="2020">2020</p>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <div class="container">
+                <div class="company-history">
+                    <div class="history-title">
+                        <div class="pc">
+                            <p class="year">
+                                <em>history</em>
+                                <span class="text-year">2023</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="history-wrap">
+                        <div class="history-cont">
+                            <ul class="page-section active" data-year="2023" id="2023">
+                                <li class="mo"><!-- mobile title -->
+                                    <em>history</em>
+                                    <h3 class="history-title">2023</h3>
+                                </li>
+                                <li>
+                                    <h2>06</h2>
+                                    <div>
+                                        <p>B2B 홍보·영업 업무 체계 WebRTC(웹기반 실시간 통신프로토콜) 화상회의 자동 회의록 생성 솔루션 저작권 등록</p>
+                                        <p>2023년 유망 SaaS 개발·육성 지원사업[스타트업 부분]</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>05</h2>
+                                    <div>
+                                        <p>2023년 산학연 Collabo R&D(예비연구)선정​</p>
+                                        <p>중소기업 빅데이터 분석활용 지원사업​</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>04</h2>
+                                    <div>
+                                        <p>‘웹클라우드 기반 프로젝트 관리 및 화상회의 통합서비스 제공 시스템’ 특허출원</p>
+                                        <p>부산대표 밀리언클럽 선정​</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>03</h2>
+                                    <div>
+                                        <p>‘디지털 영상 명함 제작 서비스’ 특허 등록​</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="page-section" data-year="2022" id="2022">
+                                <li class="mo"><!-- mobile title -->
+                                    <em>history</em>
+                                    <h3 class="history-title">2022</h3>
+                                </li>
+                                <li>
+                                    <h2>12</h2>
+                                    <div>
+                                        <p>2022 지식서비스 아이디어 사업화 지원사업 상위 2개사 선정에 따른 국비연계 R&D 컨설팅 사업 선정​</p>
+                                        <p>중소기업 창업 활성화 유공 중소벤처기업부장관 표창​</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>11</h2>
+                                    <div>
+                                        <p>일자리 창출 유공 해운대구청장 표창​</p>
+                                        <p>B-Investment Show IR피칭 대회 창업진흥원장상 대상​</p>
+                                        <p>온라인 실시간 중계 콘텐츠 하이라이트 영상 자동 제작 솔루션 저작권 등록​</p>
+                                        <p>온라인 실시간 중계 콘텐츠 하이라이트 영상 자동 제작 솔루션 v0.0.1-beta 시험성적서 발급</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>09</h2>
+                                    <div>
+                                        <p>‘하이라이트 영상 자동 편집 시스템’ 특허출원</p>
+                                        <p>이러닝콘텐츠 품질인증 AA등급 취득</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>08</h2>
+                                    <div>
+                                        <p>출판사 신고증 발급</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>07</h2>
+                                    <div>
+                                        <p>기업신용평가 취득(B+등급)</p>
+                                        <p>이러닝 사업자 신고</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>06</h2>
+                                    <div>
+                                        <p>중소기업 IP 바로지원 사업 선정</p>
+                                        <p>1인창조마케팅 지원사업 선정</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>05</h2>
+                                    <div>
+                                        <p>콘토피아 상표권 출원</p>
+                                        <p>공유기업(재)지정 및 촉진사업비 지원사업 선정</p>
+                                        <p>통신판매업 신고증 발급</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>04</h2>
+                                    <div>
+                                        <p>관광기업혁신바우처 제공기업 선정</p>
+                                        <p>2022년 창업성장기술개발사업 디딤돌(첫걸음) 선정</p>
+                                        <p>2022년 AI바우처 지원사업 선정</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>03</h2>
+                                    <div>
+                                        <p>지식서비스 아이디어 사업화 지원사업 선정</p>
+                                        <p>직접생산확인증명서 인증</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>02</h2>
+                                    <div>
+                                        <p>비디오물제작업 인증</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="page-section" data-year="2021" id="2021">
+                                <li class="mo"><!-- mobile title -->
+                                    <em>history</em>
+                                    <h3 class="history-title">2021</h3>
+                                </li>
+                                <li>
+                                    <h2>11</h2>
+                                    <div>
+                                        <p>산업디자인전문회사 신고 확인증</p>
+                                        <p>파운더 상표권, 디자인 출원(디자인권 등록 완료)</p>
+                                        <p>'비즈니스 영상 명함 세일즈 연계 시스템' 특허출원</p>
+                                        <p>'비즈니스 영상 명함시스템' 특허출원</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>08</h2>
+                                    <div>
+                                        <p>CES 2022 혁신상 사업 선정</p>
+                                        <p>CES 2022 부산시관 전시사업 선정</p>
+                                        <p>ICT 스타트업 성장지원사업 선정</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>07</h2>
+                                    <div>
+                                        <p>기업신용평가 취득(B0등급)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>06</h2>
+                                    <div>
+                                        <p>재도전 성공 패키지 지원 사업 최우수 선정</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>05</h2>
+                                    <div>
+                                        <p>기업부설 연구소 설립 및 인정</p>
+                                        <p>부산대표창업기업 브라이트 클럽 선정</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>04</h2>
+                                    <div>
+                                        <p>벤처기업(혁신성장유형)인증</p>
+                                        <p>연구전담부서 설립 및 인증</p>
+                                        <p>기술창업 인큐베이팅 지원사업 13기 선정</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>03</h2>
+                                    <div>
+                                        <p>소프트웨어 사업자 등록</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>02</h2>
+                                    <div>
+                                        <p>빅테이터 AI 기반 산업 혁신인재 고용사업 선정</p>
+                                        <p>디지털 영상 명함 제작 서비스 특허출원</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="page-section" data-year="2020" id="2020">
+                                <li class="mo"><!-- mobile title -->
+                                    <em>history</em>
+                                    <h3 class="history-title">2020</h3>
+                                </li>
+                                <li>
+                                    <h2>09</h2>
+                                    <div>
+                                        <p>중소벤처기업부 재도전 성공패키지 사업 선정</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>07</h2>
+                                    <div>
+                                        <p>(주)파운더 설립</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="contact_banner">
+        <div class="contact_banner_text">
+            <div class="title">
+                <h2>궁금한 점이 있으신가요? <br> 지금 바로 물어보세요.</h2>
+            </div>
+            <h2 class="typing02"></h2>
+        </div>
+        <div class="contact_banner_btn">
+            <a href="#">문의 바로가기</a>
+        </div>
+    </section>
+    <!-- contact_banner_E -->
+
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer_text">
+                <ul>
+                    <li>대표이사:김주성</li>
+                    <li>사업자 등록번호:712-88-01847</li>
+                    <li>T.051-714-3580</li>
+                </ul>
+                <p>부산 해운대구 수영강변대로 140 810호 (우동, 부산문화콘텐츠컴플렉스)</p>
+                <p>Copyright @2023~ Contopia. All rights reserved.</p>
+                <p><a href="#">개인정보처리방침</a></p>
+            </div>
+            <div class="sns_link">
+                <ul>
+                    <li><a href="https://www.youtube.com/@contopia" target="_blank">
+                            <img src="../images/footer/youtube.svg" alt="유튜브">
+                        </a></li>
+                    <li><a href="https://vimeo.com/showcase/9521706" target="_blank">
+                            <img src="../images/footer/vimeo.svg" alt="비메오">
+                        </a></li>
+                    <li><a href="https://blog.naver.com/contopia" target="_blank">
+                            <img src="../images/footer/blog.svg" alt="네이버 블로그">
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_E -->
+    </div>
+    <script>
+        $(function () {
+            $("#act_footer").addClass("border");
+
+            //ANCHOR클릭시 href값으로 자연스럽게 이동
+            $(".anchor-menu a").click(function (e) {
+                e.preventDefault();
+                var target = $($(this).attr("href"));
+                if (target.length) {
+                    var scrollTo = target.offset().top - 100;
+                    $("body, html").animate({
+                        scrollTop: scrollTo + "px"
+                    }, 500);
+                }
+            });
+
+            $(window).scroll(function () {
+                //ANCHOR클릭시 스크롤이벤트
+                var win_top = jQuery(window).scrollTop();
+                $(".page-section").each(function (i) {
+                    if (($(document).width() > 2000)) {
+                        if ($(this).offset().top <= win_top + 0) {
+                            $(".anchor-menu a.on").removeClass("on");
+                            $(".anchor-menu a").eq(i).addClass("on");
+                        }
+                    } if (($(document).width() < 1180)) {
+                        if ($(this).offset().top <= win_top + 500) {
+                            $(".anchor-menu a.on").removeClass("on");
+                            $(".anchor-menu a").eq(i).addClass("on");
+                        }
+                    } else {
+                        if ($(this).offset().top <= win_top + 200) {
+                            $(".anchor-menu a.on").removeClass("on");
+                            $(".anchor-menu a").eq(i).addClass("on");
+                        }
+                    }
+                });
+                
+                // 모바일 aside 위치 고정
+                var menuTop = $(".history").offset().top;
+                var nextSec = $(".footer").offset().top - 300;
+                if (win_top < menuTop) { $(".history aside").removeClass("fix") }
+                if (win_top > menuTop) { $(".history aside").addClass("fix") }
+                if (win_top > nextSec) { $(".history aside").removeClass("fix") }
+
+                // 연도 스크롤 고정
+                var fixedYear = $('.year');
+                var history = $('.history');
+                var initialOffset = history.offset().top;
+                var scrollTop = $(this).scrollTop();
+
+                // 스크롤 위치에 따라 .year 위치 조정
+                if (scrollTop >= initialOffset) {
+                    fixedYear.addClass("fix").removeClass("bottom");
+                } else {
+                    fixedYear.removeClass("fix").removeClass("bottom");
+                }
+
+                // 각 .page-section에 도달할 때 .text-year 변경
+                var activeSection = null;
+                $(".history-cont ul").each(function () {
+                    var sectionTop = $(this).offset().top;
+                    var sectionId = $(this).attr("id");
+
+                    // .year이 각 .history-cont ul의 상단에서 100px 이상 떨어진 위치에 도달할 때
+                    if (scrollTop + 100 >= sectionTop) {
+                        $(".history-title .year>span").text(sectionId);
+                        activeSection = $(this); // 현재 섹션을 기억
+                        
+                        // #2020 섹션에 도달했을 때 .fix 제거하고 .bottom 추가
+                        if (sectionId === "2020") {
+                            fixedYear.removeClass("fix").addClass("bottom");
+                        }
+                    }
+                });
+
+                // 마지막으로 활성화된 섹션이 있다면 "active" 클래스를 설정하고 형제들에서는 제거
+                if (activeSection) {
+                    activeSection.addClass("active").siblings().removeClass("active");
+                }
+
+            });
+
+            // 모바일 anchor-menu STICKY
+            var didScroll;
+            var lastScrollTop = 0;
+            var delta = 5;
+            var navbarHeight = $(".history aside").outerHeight();
+
+            $(window).scroll(function (event) {
+                didScroll = true;
+            });
+            setInterval(function () {
+                if (didScroll) {
+                    hasScrolled();
+                    didScroll = false;
+                }
+            }, 100);
+            function hasScrolled() {
+                var st = $(this).scrollTop();
+
+                if (Math.abs(lastScrollTop - st) <= delta) return;
+
+                if (st > lastScrollTop && st > navbarHeight) {
+                    $(".history aside").removeClass("top");
+
+                } else {
+                    // Scroll Up
+                    if (st + $(window).height() < $(document).height()) {
+                        $(".history aside").addClass("top");
+                    }
+                }
+                lastScrollTop = st;
+            }
+
+            // contact_banner_typing
+            var ContactOptions = {
+                stringsElement: '#contact_banner .title',
+                typeSpeed: 80,
+                startDelay: 1000,
+                loop: false,
+            }
+
+            var ContactTyped = new Typed('#contact_banner .typing02', ContactOptions);
+            ContactTyped.stop();
+
+            if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact_banner').height()) {
+                ContactTyped.start();
+            }
+
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact_banner').height()) {
+                    ContactTyped.start();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
