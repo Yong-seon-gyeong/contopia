@@ -1,0 +1,248 @@
+@charset "utf8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+em, address {
+    font-style: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+body.menu-open {
+    overflow: hidden;
+}
+
+#wrap {
+    width: 100vw;
+    overflow: hidden;
+}
+
+#visual_banner {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+#visual_banner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#visual_banner p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 430px){
+    #visual_banner p {
+        font-size: 2.5rem;
+    }
+}
+
+#company{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10vw 10vw;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+
+.company-title{
+    display: flex;
+    width: 100%;
+}
+
+.s1, .s2, .s3{
+    padding-bottom: 10vw;
+}
+
+.company-title h5{
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #003b8a;
+}
+.company-title div{
+    width: 70%;
+    position: relative;
+}
+
+.company-title div h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.company-title div p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+
+}
+
+.s1 div p{
+    padding-top: 15px;
+}
+
+.s2 p{
+    padding-bottom: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: left;
+}
+
+table tr:first-child td{
+    border-top: 3px solid #000;
+}
+
+td::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #333;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.s3 .center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.s3 .center img{
+    display: block;
+    width: 250px;
+}
+
+.s3 .center p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.s3 .center p span{
+    color: #003b8a;
+}
+
+.s4 iframe{
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media (max-width: 1560px) {
+    #company {
+        padding: 15vw 5vw;
+    }
+
+    .s1, .s2, .s3{
+        padding-bottom: 15vw;
+    }
+}
+
+@media (max-width: 1180px) {
+    #company {
+        padding: 20vw 5vw;
+    }
+
+    .s1, .s2, .s3{
+        padding-bottom: 20vw;
+    }
+
+    .s1 br {
+        display: inline-block;
+        content: " ";
+        padding: 0 2px;
+    }
+}
+
+@media (max-width: 768px){
+    #company {
+        padding: 30vw 5vw;
+    }
+
+    .company-title{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .s1, .s2, .s3{
+        padding-bottom: 30vw;
+    }
+
+    .company-title h5{
+        width: 100%;
+        font-size: calc(100vw * (35 / 768));
+        padding-bottom: 15px;
+    }
+    .company-title div{
+        width: 100%;
+        position: relative;
+    }
+
+    .company-title div h2{
+        width: 95%;
+        font-size: calc(100vw * (45 / 768));
+    }
+
+    .company-title div p{
+        font-size: calc(100vw * (32 / 768));
+    }
+
+    td {
+        font-size: calc(100vw * (32 / 768));
+    }
+}
