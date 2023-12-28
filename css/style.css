@@ -440,7 +440,7 @@ body.menu-open {
     padding: 0 0 50px;
 }
 
-.video_wrap {
+.img_wrap {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -448,23 +448,24 @@ body.menu-open {
     align-items: center;
 }
 
-.video_wrap li {
+.img_wrap li {
     width: 33.3%;
     padding: 1vw 1vw 2vw;
     box-sizing: border-box;
 }
 
-.video_wrap li a {
+.img_wrap li a {
     display: block;
     width: 100%;
 }
 
-.video_inner {
-    padding: 8vw;
+.preview {
+    padding: 7vw;
     position: relative;
+    overflow: hidden;
 }
 
-.video_wrap li video {
+.img_wrap li img {
     display: block;
     position: absolute;
     left: 50%;
@@ -474,13 +475,53 @@ body.menu-open {
     height: auto;
 }
 
-.video_wrap li p {
+.preview span {
+    display: block;
+    position: absolute;
+    transition: width .1s ease-in-out,height .1s ease-in-out,opacity .1s ease-in-out;
+    background: #003b8a;
+    z-index: 2;
+}
+
+.preview span:nth-child(1) {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 5PX;
+    transition-delay: .3s;
+}
+
+.preview span:nth-child(2) {
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 0;
+    transition-delay: .2s;
+}
+
+.preview span:nth-child(3) {
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    transition-delay: .1s;
+}
+
+.preview span:nth-child(4) {
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    height: 0;
+    transition-delay: .0s;
+}
+
+.img_wrap li p {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 10px;
 }
 
-.video_wrap li p:last-child {
+.img_wrap li p:last-child {
     display: inline-block;
     border: 1px solid #333;
     padding: 0.1vw 1.2vw;
@@ -500,17 +541,6 @@ body.menu-open {
     font-size: 1rem;
     border: 1px solid #333;
     padding: 10px 30px 10px 20px;
-}
-
-.portfolio_btn a:hover {
-    background-color: #003b8a;
-    color: #fff;
-    border: 1px solid transparent;
-}
-
-.portfolio_btn a:hover::after {
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;
 }
 
 .portfolio_btn a::after {
@@ -533,8 +563,45 @@ body.menu-open {
         font-size: calc(100vw * (40 / 1560));
     }
 
-    .video_wrap li p {
+    .img_wrap li p {
         font-size: calc(100vw * (26 / 1560));
+    }
+}
+
+@media (min-width: 1181px) {
+    .img_wrap li a {
+        cursor: url('../images/main/mouse_img.svg')30 30, auto;
+    }
+
+    .img_wrap li a:hover .preview span:nth-child(1) {
+        width: 100%;
+        transition-delay: .0s;
+    }
+
+    .img_wrap li a:hover .preview span:nth-child(2) {
+        height: 100%;
+        transition-delay: .1s;
+    }
+
+    .img_wrap li a:hover .preview span:nth-child(3) {
+        width: 100%;
+        transition-delay: .2s;
+    }
+
+    .img_wrap li a:hover .preview span:nth-child(4) {
+        height: 100%;
+        transition-delay: .3s;
+    }
+
+    .portfolio_btn a:hover {
+        background-color: #003b8a;
+        color: #fff;
+        border: 1px solid transparent;
+    }
+
+    .portfolio_btn a:hover::after {
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
     }
 }
 
@@ -547,17 +614,17 @@ body.menu-open {
         font-size: calc(100vw * (40 / 1180));
     }
 
-    .video_wrap li {
+    .img_wrap li {
         width: 50%;
         padding: 1vw 1vw 5vw;
 
     }
 
-    .video_inner {
+    .preview {
         padding: 12vw;
     }
 
-    .video_wrap li p {
+    .img_wrap li p {
         font-size: calc(100vw * (26 / 1180));
     }
 }
@@ -567,12 +634,12 @@ body.menu-open {
         padding-top: 20vw;
     }
 
-    .video_wrap li {
+    .img_wrap li {
         width: 100%;
         padding: 1vw 1vw 10vw;
     }
 
-    .video_inner {
+    .preview {
         padding: 25vw;
     }
 
@@ -581,12 +648,20 @@ body.menu-open {
         padding: 0 19vw 50px;
     }
 
-    .video_wrap li p {
+    .img_wrap li p {
         font-size: calc(100vw * (36 / 768));
     }
 
-    .video_wrap li p:last-child {
+    .img_wrap li p:last-child {
     padding: 0.1vw 2.5vw;
+    }
+    
+    .img_wrap li a {
+        cursor: auto;
+    }
+
+    .preview span {
+        display: none;
     }
 }
 
