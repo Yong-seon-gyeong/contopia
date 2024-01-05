@@ -47,7 +47,7 @@ body.menu-open {
     max-width: calc(144rem + 12rem);
     /* height: 100vh; */
     margin: 0 auto;
-    padding: 25vh 15vw;
+    padding: 10vw 15vw;
     box-sizing: border-box;
     background-image: url(../images/sub/inquiry/inquiry_bg.png);
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ body.menu-open {
 
 @media (max-width:1560px){
     #contact {
-        padding: 20vh 7vw;
+        padding: 12vw 7vw;
     }
 
     .form li {
