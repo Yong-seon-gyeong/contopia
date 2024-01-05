@@ -10,7 +10,8 @@ a {
     color: #333;
 }
 
-em, address {
+em,
+address {
     font-style: normal;
 }
 
@@ -67,13 +68,13 @@ body.menu-open {
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 430px){
+@media (max-width: 430px) {
     #visual_banner p {
         font-size: 2.5rem;
     }
 }
 
-#business{
+#business {
     width: 100%;
     margin: 0 auto;
     padding: 10vw 10vw;
@@ -81,47 +82,59 @@ body.menu-open {
     word-break: keep-all;
 }
 
-#business>h2{
+#business>h2 {
     text-align: center;
     padding-bottom: 10vw;
     font-size: 2rem;
     font-weight: 400;
 }
 
-#business>h2 span{
+#business>h2 span {
     font-size: 2.5rem;
     font-weight: 600;
 }
 
-.business_wrap{
+.business_wrap {
     width: 100%;
 }
 
-.business_wrap ul li{
+.business_wrap ul li {
     display: flex;
     justify-content: space-evenly;
     padding: 3vw 0;
 }
 
-.text_box{
-    align-self: center;
+.business_wrap ul li div {
+    width: 50%;
 }
 
-.text_box h2{
+#video .text_box,
+#streaming .text_box {
+    align-self: center;
+    padding-left: 6vw;
+}
+
+#event .text_box,
+#marketing .text_box {
+    align-self: center;
+    padding-right: 6vw;
+}
+
+.text_box h2 {
     font-size: 2rem;
     font-weight: 600;
 }
 
-.text_box p{
+.text_box p {
     font-size: 1.2rem;
-    width: 600px;
+    /* width: 600px; */
     padding: 2vw 0;
 }
 
-.business_wrap ul li img{
+.business_wrap ul li img {
     display: block;
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio_btn {
@@ -147,9 +160,17 @@ body.menu-open {
     margin-left: 10px;
 }
 
-@media (max-width:1560px){
-    #business{
+@media (max-width:1560px) {
+    #business {
         padding: 10vw 5vw;
+    }
+
+    #business>h2 {
+        font-size: calc(100vw * (32 / 1560));
+    }
+
+    #business>h2 span {
+        font-size: calc(100vw * (38 / 1560));
     }
 }
 
@@ -166,29 +187,72 @@ body.menu-open {
     }
 }
 
-@media (max-width:1180px){
-    #business>h2{
-        font-size: calc(100vw * (32/1180));
-    }
-    
-    #business>h2 span{
-        font-size: calc(100vw * (36/1180));
+@media (max-width:1180px) {
+    #business>h2 {
+        font-size: calc(100vw * (40/1180));
     }
 
-    .text_box h2{
-        font-size: calc(100vw * (36/1180));
+    #business>h2 span {
+        font-size: calc(100vw * (40/1180));
     }
 
-    .text_box p{
-        font-size: calc(100vw * (32/1180));
-    }
-
-    .business_wrap ul li{
+    .business_wrap ul li {
         flex-direction: column;
         align-items: center;
+        padding: 6vw 0;
+    }
+
+    .business_wrap ul li div {
+        width: 100%;
+    }
+
+    .text_box {
+        padding-top: 3vw;
+    }
+
+    #video .text_box,
+    #streaming .text_box {
+        padding-left: 0vw;
+    }
+
+    #event .text_box,
+    #marketing .text_box {
+        padding-right: 0vw;
+    }
+
+    #event .text_box,
+    #marketing .text_box {
+        order: 2;
+    }
+
+    .text_box h2 {
+        font-size: calc(100vw * (36/1180));
+    }
+
+    .text_box p {
+        font-size: calc(100vw * (32/1180));
+    }
+
+    .portfolio_btn {
+        justify-content: center;
+        margin-top: 3vw;
     }
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
+    #business>h2 {
+        font-size: calc(100vw * (42/768));
+    }
 
+    #business>h2 span {
+        font-size: calc(100vw * (42/768));
+    }
+
+    .text_box h2 {
+        font-size: calc(100vw * (40/768));
+    }
+
+    .text_box p {
+        font-size: calc(100vw * (32/768));
+    }
 }
