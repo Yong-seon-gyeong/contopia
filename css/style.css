@@ -657,7 +657,7 @@ body.menu-open {
     }
     
     .img_wrap li a {
-        cursor: auto;
+        cursor: pointer;
     }
 
     .preview span {
