@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contopia</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/inquiry.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/header.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header" class="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                </a>
+            </h1>
+            <nav class="nav">
+                <!-- pc_menu -->
+                <ul class="gnb">
+                    <li>
+                        <a href="../sub/company.html">회사소개</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/company.html">회사개요</a></li>
+                                    <li><a href="../sub/history.html">회사연혁</a></li>
+                                    <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/business.html">사업분야</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/business.html#video">영상 콘텐츠 제작</a></li>
+                                    <li><a href="../sub/business.html#event">온·오프라인 행사</a></li>
+                                    <li><a href="../sub/business.html#marketing">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/pf_video.html">포트폴리오</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/pf_video.html">영상 콘텐츠 제작</a></li>
+                                    <li><a href="../sub/pf_event.html">온·오프라인 행사</a></li>
+                                    <li><a href="../sub/pf_marketing.html">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/promotion.html">홍보센터</a>
+                    </li>
+                    <li>
+                        <a href="../sub/inquiry.html">상담문의</a>
+                    </li>
+                </ul>
+
+                <!-- mobile_menu -->
+                <div class="m_nav">
+                    <a class="menu-trigger" href="javascript:return false;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <ul class="m_menu">
+                        <li class="m_logo">
+                            <a href="../index.html">
+                                <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                            </a>
+                        </li>
+                        <li class="m_gnb">
+                            <ul>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/company.html">회사소개</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/company.html">회사개요</a></li>
+                                        <li><a href="../sub/history.html">회사연혁</a></li>
+                                        <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/business.html">사업분야</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/business.html#video">영상 콘텐츠 제작</a></li>
+                                        <li><a href="../sub/business.html#event">온·오프라인 행사</a></li>
+                                        <li><a href="../sub/business.html#marketing">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/pf_video.html">포트폴리오</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/pf_video.html">영상 콘텐츠 제작</a></li>
+                                        <li><a href="../sub/pf_event.html">온·오프라인 행사</a></li>
+                                        <li><a href="../sub/pf_marketing.html">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../sub/promotion.html">홍보센터</a>
+                                </li>
+                                <li>
+                                    <a href="../sub/inquiry.html">상담문의</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- header_E -->
+
+        <section id="contact">
+            <div class="container">
+                <ul class="flex">
+                    <li class="contact-title">
+                        <div class="flex">
+                            <span class="box-green"></span>
+                            <span class="box-blue"></span>
+                        </div>
+                        <h2>문의하기</h2>
+                        <p>
+                            창의적이고 전문적인 팀으로 여러분의 이야기를 돋보이게 표현해드릴 준비가 되어 있습니다. 언제든지 문의 주시면 성심 성의껏 도움을 드리겠습니다.
+                        </p>
+                    </li>
+                    <li class="form-wrap">
+                        <form id="emailForm" class="gform" method="POST"
+                            action="https://script.google.com/macros/s/AKfycbxLoCl5IHsIYNOunHqNSU9CwcNI06HAvow3ES9tZJ_U5IuOCfLYWGab1q4gyIO8h0HA/exec">
+                            <ul class="form">
+                                <li>
+                                    <div>
+                                        <label data-role="label" for="senderName" class="required">이름</label>
+                                        <input autocomplete="off" type="text" class="form-control" id="senderName"
+                                            name="senderName" placeholder="홍길동" required>
+                                    </div>
+                                    <div>
+                                        <label data-role="label" for="senderTel" class="required">연락처</label>
+                                        <input autocomplete="off" type="tel" maxlength="11" style="ime-mode:disabled" class="form-control" id="senderTel"
+                                            name="senderTel" placeholder="01012345678" required>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <label data-role="label" for="senderCompany" class="required">소속</label>
+                                        <input autocomplete="off" type="text" class="form-control" id="senderCompany"
+                                            name="senderCompany" placeholder="콘토피아" required>
+                                    </div>
+                                    <div>
+                                        <label data-role="label" for="senderEmail" class="required">이메일</label>
+                                        <input autocomplete="off" type="email" pattern="[a-zA-Z0-9]+[@][a-zA-Z0-9]+[.]+[a-zA-Z]+[.]*[a-zA-Z]*" class="form-control" id="senderEmail"
+                                            name="senderEmail" placeholder="id@yourmail.com" required>
+                                    </div>
+                                </li>
+                                <li>
+                                    <label data-role="label" for="message" class="required">내용</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5"
+                                        placeholder="원하시는 문의 내용을 자세히 남겨주시면 순차적으로 연락 드리겠습니다."></textarea>
+                                </li>
+                                <script type="text/javascript">
+                                    (function () {
+                                        //연락처 숫자만 입력되도록
+                                        $("#senderTel").keyup(function (event) {
+                                            var inputVal = $(this).val();
+                                            $(this).val(inputVal.replace(/[^0-9]/gi, ''));
+                                        });
+
+                                        //폼의 모든 데이터를 가져와 객체로 반환하는 함수
+                                        function getFormData(form) {
+                                            var elements = form.elements;
+                                            var honeypot;
+
+                                            var fields = Object.keys(elements).filter(function (k) {
+                                                if (elements[k].name === "honeypot") {
+                                                    honeypot = elements[k].value;
+                                                    return false;
+                                                }
+                                                return true;
+                                            }).map(function (k) {
+                                                if (elements[k].name !== undefined) {
+                                                    return elements[k].name;
+                                                    // Edge HTML 컬렉션의 경우 특별한 처리
+                                                } else if (elements[k].length > 0) {
+                                                    return elements[k].item(0).name;
+                                                }
+                                            }).filter(function (item, pos, self) {
+                                                return self.indexOf(item) == pos && item;
+                                            });
+
+                                            var formData = {};
+                                            fields.forEach(function (name) {
+                                                var element = elements[name];
+
+                                                // 단일 폼 엘리먼트는 하나의 값만 가지고 있음
+                                                formData[name] = element.value;
+
+                                                // 엘리먼트에 여러 항목이 있는 경우, 그 값들을 가져옴
+                                                if (element.length) {
+                                                    var data = [];
+                                                    for (var i = 0; i < element.length; i++) {
+                                                        var item = element.item(i);
+                                                        if (item.checked || item.selected) {
+                                                            data.push(item.value);
+                                                        }
+                                                    }
+                                                    formData[name] = data.join(', ');
+                                                }
+                                            });
+
+                                            // 데이터에 폼 특정 값들을 추가
+                                            formData.formDataNameOrder = JSON.stringify(fields);
+                                            formData.formGoogleSheetName = form.dataset.sheet || "responses"; // 기본 시트 이름
+                                            formData.formGoogleSendEmail
+                                                = form.dataset.email || ""; // 기본적으로 이메일은 없음
+
+                                            return { data: formData, honeypot: honeypot };
+                                        }
+
+                                        function handleFormSubmit(event) {  // 기본적으로 이메일은 없음
+                                            event.preventDefault();           // 아래의 xhr로 제출하므로 기본 제출 방지
+                                            var form = event.target;
+                                            var formData = getFormData(form);
+                                            var data = formData.data;
+
+                                            // 만약 허니팟 필드가 채워져 있다면, 스팸 봇에 의해 작성된 것으로 가정
+                                            if (formData.honeypot) {
+                                                return false;
+                                            }
+
+                                            // disableAllButtons(form);
+                                            var url = form.action;
+                                            var xhr = new XMLHttpRequest();
+                                            xhr.open('POST', url);
+                                            // xhr.withCredentials = true;
+                                            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                                            xhr.onreadystatechange = function () {
+                                                if (xhr.readyState === 4 && xhr.status === 200) {
+                                                    form.reset();
+                                                    // var formElements = form.querySelector(".form")
+                                                    // if (formElements) {
+                                                    //     formElements.style.display = "none"; // 폼숨기기
+                                                    // }
+                                                    // var thankYouMessage = form.querySelector(".thankyou_message");
+                                                    // if (thankYouMessage) {
+                                                        // thankYouMessage.style.display = "block";
+                                                        alert("메일 전송에 성공했습니다. 확인 후 회신드리겠습니다.");
+
+                                                        // location.reload();
+                                                    // }
+                                                }
+                                            };
+                                            //POST 데이터로 보낼 때를 위해 폼 데이터를 URL 인코딩
+                                            var encoded = Object.keys(data).map(function (k) {
+                                                return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+                                            }).join('&');
+                                            xhr.send(encoded);
+                                        }
+
+                                        function loaded() {
+                                            // 폼의 제출 이벤트에 바인딩
+                                            var forms = document.querySelectorAll("form.gform");
+                                            for (var i = 0; i < forms.length; i++) {
+                                                forms[i].addEventListener("submit", handleFormSubmit, false);
+                                            }
+                                        };
+                                        document.addEventListener("DOMContentLoaded", loaded, false);
+
+                                        function disableAllButtons(form) {
+                                            var buttons = form.querySelectorAll("button");
+                                            for (var i = 0; i < buttons.length; i++) {
+                                                buttons[i].disabled = true;
+                                            }
+                                        }
+                                    })();
+                                </script>
+                                <div class="inquiry_btn">
+                                    <button id="btnSubmit" class="btn-submit">문의하기</button>
+                                </div>
+                            </ul>
+
+                            <!-- <div style="display:none" class="thankyou_message">
+                                <h2>감사합니다.</h2>
+                            </div> -->
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- contact_E -->
+
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer_text">
+                    <ul>
+                        <li>대표이사:김주성</li>
+                        <li>사업자 등록번호:712-88-01847</li>
+                        <li>T.051-714-3580</li>
+                    </ul>
+                    <p>부산 해운대구 수영강변대로 140 810호 (우동, 부산문화콘텐츠컴플렉스)</p>
+                    <p>Copyright @2023~ Contopia. All rights reserved.</p>
+                    <p><a href="../sub/privacy.html">개인정보처리방침</a></p>
+                </div>
+                <div class="sns_link">
+                    <ul>
+                        <li><a href="https://www.youtube.com/@contopia" target="_blank">
+                                <img src="../images/footer/youtube.svg" alt="유튜브">
+                            </a></li>
+                        <li><a href="https://vimeo.com/showcase/9521706" target="_blank">
+                                <img src="../images/footer/vimeo.svg" alt="비메오">
+                            </a></li>
+                        <li><a href="https://blog.naver.com/contopia" target="_blank">
+                                <img src="../images/footer/blog.svg" alt="네이버 블로그">
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer_E -->
+    </div>
+</body>

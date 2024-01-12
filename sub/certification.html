@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contopia</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/certification.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/typed.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header" class="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                </a>
+            </h1>
+            <nav class="nav">
+                <!-- pc_menu -->
+                <ul class="gnb">
+                    <li>
+                        <a href="../sub/company.html">회사소개</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/company.html">회사개요</a></li>
+                                    <li><a href="../sub/history.html">회사연혁</a></li>
+                                    <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/business.html">사업분야</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/business.html#video">영상 콘텐츠 제작</a></li>
+                                    <li><a href="../sub/business.html#event">온·오프라인 행사</a></li>
+                                    <li><a href="../sub/business.html#marketing">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/pf_video.html">포트폴리오</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/pf_video.html">영상 콘텐츠 제작</a></li>
+                                    <li><a href="../sub/pf_event.html">온·오프라인 행사</a></li>
+                                    <li><a href="../sub/pf_marketing.html">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/promotion.html">홍보센터</a>
+                    </li>
+                    <li>
+                        <a href="../sub/inquiry.html">상담문의</a>
+                    </li>
+                </ul>
+
+                <!-- mobile_menu -->
+                <div class="m_nav">
+                    <a class="menu-trigger" href="javascript:return false;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <ul class="m_menu">
+                        <li class="m_logo">
+                            <a href="../index.html">
+                                <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                            </a>
+                        </li>
+                        <li class="m_gnb">
+                            <ul>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/company.html">회사소개</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/company.html">회사개요</a></li>
+                                        <li><a href="../sub/history.html">회사연혁</a></li>
+                                        <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/business.html">사업분야</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/business.html#video">영상 콘텐츠 제작</a></li>
+                                        <li><a href="../sub/business.html#event">온·오프라인 행사</a></li>
+                                        <li><a href="../sub/business.html#marketing">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/pf_video.html">포트폴리오</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/pf_video.html">영상 콘텐츠 제작</a></li>
+                                        <li><a href="../sub/pf_event.html">온·오프라인 행사</a></li>
+                                        <li><a href="../sub/pf_marketing.html">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../sub/promotion.html">홍보센터</a>
+                                </li>
+                                <li>
+                                    <a href="../sub/inquiry.html">상담문의</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- header_E -->
+
+        <div id="visual_banner">
+            <img src="../images/sub/certification/certification.jpg" alt="특허/인증/수상 대표이미지">
+            <p>특허/인증/수상</p>
+        </div>
+
+        <section class="awards">
+            <div class="container">
+                <ol class="item-tab">
+                    <li data-cate="all" class="on"><a>ALL</a></li>
+                    <!-- <li data-cate="patent"><a>특허</a></li> -->
+                    <li data-cate="patent_auth"><a>특허/인증</a></li>
+                    <li data-cate="award"><a>수상</a></li>
+                </ol>
+        
+                <ul class="awards-list item-list">
+                    <li class="award"><a>
+                            <div class="img"><img src="../images/sub/certification/award5.jpg"></div><span
+                                class="cate">과학기술정보통신부</span>
+                            <p>2023 유망 SaaS 개발·육성 사업 장관상</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth20.jpg"></div><span
+                                class="cate">대한민국 특허청</span>
+                            <p>비즈니스 영상명함 제작 및 관리 서비스 제공 시스템</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth19.jpg"></div><span
+                                class="cate">부산광역시</span>
+                            <p>부산대표 기술창업기업 인증서[밀리언클럽]</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth18.jpg"></div><span
+                                class="cate">한국소프트웨어산업협회</span>
+                            <p>소프트웨어사업자 일반 현황 관리확인서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth17.jpg"></div><span
+                                class="cate">중소벤처기업부</span>
+                            <p>중소기업 확인서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth16.jpg"></div><span class="cate">대한민국
+                                특허청</span>
+                            <p>비즈니스 영상명함 제작 서비스 제공 시스템</p>
+                        </a></li>
+                        <li class="award"><a>
+                            <div class="img"><img src="../images/sub/certification/award4.jpg"></div>
+                            <span class="cate">중소벤처기업부</span>
+                            <p>중소기업 창업 활성화 유공 중소벤처기업부장관 표창​</p>
+                        </a></li>
+                        <li class="award"><a>
+                            <div class="img"><img src="../images/sub/certification/award3.jpg"></div><span class="cate">해운대구</span>
+                            <p>일자리 창출 유공 해운대구청장 표창​</p>
+                        </a></li>
+                        <li class="award"><a>
+                            <div class="img"><img src="../images/sub/certification/award2.jpg">
+                            </div><span class="cate">창업진흥원</span>
+                            <p>B-Investment Show IR피칭 대회 창업진흥원장상 대상​</p>
+                        </a></li>
+                        <li class="award"><a>
+                            <div class="img"><img src="../images/sub/certification/award1.jpg"></div><span
+                                class="cate">부산지방중소벤처기업청</span>
+                            <p>중소기업 창업 활성화 유공 중소벤처기업부청장 표창</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth15.jpg"></div>
+                            <span class="cate">중소기업유통센터</span>
+                            <p>직접생산확인증명서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth14.jpg"></div><span
+                                class="cate">한국산업기술진흥협회</span>
+                            <p>기업부설연구소 인정서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth13.jpg">
+                            </div><span class="cate">부산광역시</span>
+                            <p>출판사 신고확인증</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth12.jpg"></div><span
+                                class="cate">(사)한국에듀테크산업협회</span>
+                            <p>이러닝사업자 신고확인서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth11.jpg"></div><span
+                                class="cate">부산광역시</span>
+                            <p>통신판매업신고증</p>
+                        </a></li>
+                        <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth1.jpg"></div><span
+                                class="cate">SCI평가정보</span>
+                            <p>기업신용등급 B+</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth10.jpg"></div><span
+                                class="cate">부산광역시</span>
+                            <p>부산대표 공유기업 지정서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth9.jpg"></div><span
+                                class="cate">해운대구청</span>
+                            <p>비디오물제작업 신고증</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth8.jpg"></div><span 
+                            class="cate">조달청</span>
+                            <p>경쟁입찰참가자격등록증</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth7.jpg"></div><span
+                                class="cate">한국디자인진흥원</span>
+                            <p>산업디자인전문회사 신고확인증</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth6.jpg"></div><span
+                                class="cate">부산광역시</span>
+                            <p>부산대표 기술창업기업 인증서[브라이트클럽]</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth5.jpg"></div><span
+                                class="cate">벤처기업확인기관</span>
+                            <p>벤처기업확인서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth4.jpg"></div><span
+                                class="cate">한국산업기술진흥협회</span>
+                            <p>연구개발전담부서 인정서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth3.jpg"></div><span
+                                class="cate">중소벤처기업부</span>
+                            <p>창업기업 확인서</p>
+                        </a></li>
+                    <li class="patent_auth"><a>
+                            <div class="img"><img src="../images/sub/certification/patent_auth2.jpg"></div><span
+                                class="cate">한국교육콘텐츠품질인증위원회</span>
+                            <p>품질인증등급 AA</p>
+                        </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact_banner">
+            <div class="contact_banner_text">
+                <div class="title">
+                    <h2>궁금한 점이 있으신가요? <br> 지금 바로 물어보세요.</h2>
+                </div>
+                <h2 class="typing02"></h2>
+            </div>
+            <div class="contact_banner_btn">
+                <a href="../sub/inquiry.html">문의 바로가기</a>
+            </div>
+        </section>
+        <!-- contact_banner_E -->
+    
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer_text">
+                    <ul>
+                        <li>대표이사:김주성</li>
+                        <li>사업자 등록번호:712-88-01847</li>
+                        <li>T.051-714-3580</li>
+                    </ul>
+                    <p>부산 해운대구 수영강변대로 140 810호 (우동, 부산문화콘텐츠컴플렉스)</p>
+                    <p>Copyright @2023~ Contopia. All rights reserved.</p>
+                    <p><a href="../sub/privacy.html">개인정보처리방침</a></p>
+                </div>
+                <div class="sns_link">
+                    <ul>
+                        <li><a href="https://www.youtube.com/@contopia" target="_blank">
+                                <img src="../images/footer/youtube.svg" alt="유튜브">
+                            </a></li>
+                        <li><a href="https://vimeo.com/showcase/9521706" target="_blank">
+                                <img src="../images/footer/vimeo.svg" alt="비메오">
+                            </a></li>
+                        <li><a href="https://blog.naver.com/contopia" target="_blank">
+                                <img src="../images/footer/blog.svg" alt="네이버 블로그">
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer_E -->
+    </div>
+    <script>
+        $(function () {
+            //tab
+            // $('.item-tab li').click(function(event) {
+            //     event.preventDefault();        
+            //     $('.item-tab li').removeClass('on');         
+            //     // $(this).closest('li').addClass('on');
+            //     $(this).addClass('on');
+            // });
+
+            // 위 코드를 순수 자바스크립트로 변경
+            var itemTab = document.querySelectorAll('.item-tab li');
+            for (var i = 0; i < itemTab.length; i++) {
+                itemTab[i].addEventListener('click', function (event) {
+                    event.preventDefault();
+                    for (var j = 0; j < itemTab.length; j++) {
+                        itemTab[j].classList.remove('on');
+                    }
+                    this.classList.add('on');
+                    // data-cate 속성을 이용하여 필터링
+                    var cate = this.getAttribute('data-cate');
+                    var item = document.querySelectorAll('.awards-list li');
+                    for (var k = 0; k < item.length; k++) {
+                        item[k].style.display = 'none';
+                        if (item[k].classList.contains(cate)) {
+                            item[k].style.display = 'block';
+                        } else if (cate == 'all') {
+                            item[k].style.display = 'block';
+                        }
+                    }
+                });
+            }
+        })
+
+        // contact_banner_typing
+        var ContactOptions = {
+            stringsElement: '#contact_banner .title',
+            typeSpeed: 80,
+            startDelay: 1000,
+            loop: false,
+        }
+
+        var ContactTyped = new Typed('#contact_banner .typing02', ContactOptions);
+        ContactTyped.stop();
+
+        if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact_banner').height()) {
+            ContactTyped.start();
+        }
+
+        $(window).on('scroll', function () {
+            if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact_banner').height()) {
+                ContactTyped.start();
+            }
+        });
+    </script>
+</body>

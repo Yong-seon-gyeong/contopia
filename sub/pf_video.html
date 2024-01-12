@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contopia</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/typed.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header" class="header">
+            <h1 class="logo">
+                <a href="../index.html">
+                    <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                </a>
+            </h1>
+            <nav class="nav">
+                <!-- pc_menu -->
+                <ul class="gnb">
+                    <li>
+                        <a href="../sub/company.html">회사소개</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/company.html">회사개요</a></li>
+                                    <li><a href="../sub/history.html">회사연혁</a></li>
+                                    <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/business.html">사업분야</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/business.html#video">영상 콘텐츠 제작</a></li>
+                                    <li><a href="../sub/business.html#event">온·오프라인 행사</a></li>
+                                    <li><a href="../sub/business.html#marketing">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/pf_video.html">포트폴리오</a>
+                        <div class="submenu_wrap">
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="../sub/pf_video.html">영상 콘텐츠 제작</a></li>
+                                    <li><a href="../sub/pf_event.html">온·오프라인 행사</a></li>
+                                    <li><a href="../sub/pf_marketing.html">홍보 및 마케팅</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../sub/promotion.html">홍보센터</a>
+                    </li>
+                    <li>
+                        <a href="../sub/inquiry.html">상담문의</a>
+                    </li>
+                </ul>
+
+                <!-- mobile_menu -->
+                <div class="m_nav">
+                    <a class="menu-trigger" href="javascript:return false;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <ul class="m_menu">
+                        <li class="m_logo">
+                            <a href="../index.html">
+                                <img src="../images/header/logo.svg" alt="콘토피아 로고">
+                            </a>
+                        </li>
+                        <li class="m_gnb">
+                            <ul>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/company.html">회사소개</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/company.html">회사개요</a></li>
+                                        <li><a href="../sub/history.html">회사연혁</a></li>
+                                        <li><a href="../sub/certification.html">특허/인증/수상</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/business.html">사업분야</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/business.html#video">영상 콘텐츠 제작</a></li>
+                                        <li><a href="../sub/business.html#event">온·오프라인 행사</a></li>
+                                        <li><a href="../sub/business.html#marketing">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button></button>
+                                    <a href="../sub/pf_video.html">포트폴리오</a>
+                                    <ul class="m_submenu">
+                                        <li><a href="../sub/pf_video.html">영상 콘텐츠 제작</a></li>
+                                        <li><a href="../sub/pf_event.html">온·오프라인 행사</a></li>
+                                        <li><a href="../sub/pf_marketing.html">홍보 및 마케팅</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="../sub/promotion.html">홍보센터</a>
+                                </li>
+                                <li>
+                                    <a href="../sub/inquiry.html">상담문의</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- header_E -->
+
+        <div id="visual_banner">
+            <img src="../images/main/business_introduce1.jpg" alt="영상 콘텐츠 제작 대표이미지">
+            <p>영상 콘텐츠 제작</p>
+        </div>
+        <!-- visual_banner -->
+
+        <section class="portfolio">
+            <div class="container">
+                <ol class="item-tab">
+                    <li data-cate="all" class="on"><a>ALL</a></li>
+                    <li data-cate="promotion"><a>홍보</a></li>
+                    <li data-cate="education"><a>교육</a></li>
+                    <li data-cate="sketch"><a>스케치</a></li>
+                </ol>
+
+                <ul class="portfolio-list item-list">
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/18_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">부산형 워케이션</h4>
+                                <p class="portfolio__text">부산창조경제혁신센터</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio12.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/17_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">저스트원더</h4>
+                                <p class="portfolio__text">스타일테크</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio11.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/16_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">SW융합작품전시회 <br> 코딩 워크스페이스 시설소개</h4>
+                                <p class="portfolio__text">동명대학교</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio10.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/15_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">스타일테크 지원사업</h4>
+                                <p class="portfolio__text">부산정보산업진흥원</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio09.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/14_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">개발자양성교육</h4>
+                                <p class="portfolio__text">부산정보산업진흥원</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio08.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/13_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">고품격커피공장</h4>
+                                <p class="portfolio__text">바름팩토리</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio07.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/12_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">코드브로스 워크폼</h4>
+                                <p class="portfolio__text">코드브로스</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio06.png"></div>
+                        </a></li>
+                    <li class="education"><a href="../sub/portfolio/video_pf/11_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">인공지능 아두이노! <br> 부산의 축제를 알려줘</h4>
+                                <p class="portfolio__text">동명대학교</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio05.png"></div>
+                        </a></li>
+                    <li class="sketch"><a href="../sub/portfolio/video_pf/10_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">땅울림 활동 발표 대회 현장</h4>
+                                <p class="portfolio__text">기상청&한국능률협회</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio04.png"></div>
+                        </a></li>
+                    <li class="sketch"><a href="../sub/portfolio/video_pf/09_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">나이팅게일 선서식</h4>
+                                <p class="portfolio__text">가야대학교</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio03.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/08_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">스마트시티 학술용역 결과보고</h4>
+                                <p class="portfolio__text">부산시의회</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio02.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/07_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">스마트시티 실증랩 소개</h4>
+                                <p class="portfolio__text">부산창조경제혁신센터</p>
+                            </div>
+                            <div class="img"><img src="../images/main/portfolio01.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/06_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">부산창업공유대학_미스터멘션</h4>
+                                <p class="portfolio__text">부산대학교</p>
+                            </div>
+                            <div class="img"><img src="../images/sub/portfolio/portfolio06.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/05_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">부산창업공유대학_말랑하니</h4>
+                                <p class="portfolio__text">부산대학교</p>
+                            </div>
+                            <div class="img"><img src="../images/sub/portfolio/portfolio05.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/04_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">ICT이노베이션스퀘어 조성사업</h4>
+                                <p class="portfolio__text">부산정보산업진흥원</p>
+                            </div>
+                            <div class="img"><img src="../images/sub/portfolio/portfolio04.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/03_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">BNK 핀테크랩</h4>
+                                <!-- <p class="portfolio__text">BNK 핀테크랩</p> -->
+                            </div>
+                            <div class="img"><img src="../images/sub/portfolio/portfolio03.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/02_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">탄소중립실천</h4>
+                                <p class="portfolio__text">새마을운동중앙회</p>
+                            </div>
+                            <div class="img"><img src="../images/sub/portfolio/portfolio02.png"></div>
+                        </a></li>
+                    <li class="promotion"><a href="../sub/portfolio/video_pf/01_film.html" class="portfolio__link">
+                            <div class="portfolio__mask">
+                                <h4 class="portfolio__title">탄소중립 화이트보드 애니메이션</h4>
+                                <p class="portfolio__text">새마을운동중앙회</p>
+                            </div>
+                            <div class="img"><img src="../images/sub/portfolio/portfolio01.png"></div>
+                        </a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- portfolio_E -->
+
+        <section id="contact_banner">
+            <div class="contact_banner_text">
+                <div class="title">
+                    <h2>궁금한 점이 있으신가요? <br> 지금 바로 물어보세요.</h2>
+                </div>
+                <h2 class="typing02"></h2>
+            </div>
+            <div class="contact_banner_btn">
+                <a href="../sub/inquiry.html">문의 바로가기</a>
+            </div>
+        </section>
+        <!-- contact_banner_E -->
+
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer_text">
+                    <ul>
+                        <li>대표이사:김주성</li>
+                        <li>사업자 등록번호:712-88-01847</li>
+                        <li>T.051-714-3580</li>
+                    </ul>
+                    <p>부산 해운대구 수영강변대로 140 810호 (우동, 부산문화콘텐츠컴플렉스)</p>
+                    <p>Copyright @2023~ Contopia. All rights reserved.</p>
+                    <p><a href="../sub/privacy.html">개인정보처리방침</a></p>
+                </div>
+                <div class="sns_link">
+                    <ul>
+                        <li><a href="https://www.youtube.com/@contopia" target="_blank">
+                                <img src="../images/footer/youtube.svg" alt="유튜브">
+                            </a></li>
+                        <li><a href="https://vimeo.com/showcase/9521706" target="_blank">
+                                <img src="../images/footer/vimeo.svg" alt="비메오">
+                            </a></li>
+                        <li><a href="https://blog.naver.com/contopia" target="_blank">
+                                <img src="../images/footer/blog.svg" alt="네이버 블로그">
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer_E -->
+    </div>
+    <script>
+        $(function () {
+            //tab
+            // $('.item-tab li').click(function(event) {
+            //     event.preventDefault();        
+            //     $('.item-tab li').removeClass('on');         
+            //     // $(this).closest('li').addClass('on');
+            //     $(this).addClass('on');
+            // });
+
+            // 위 코드를 순수 자바스크립트로 변경
+            var itemTab = document.querySelectorAll('.item-tab li');
+            for (var i = 0; i < itemTab.length; i++) {
+                itemTab[i].addEventListener('click', function (event) {
+                    event.preventDefault();
+                    for (var j = 0; j < itemTab.length; j++) {
+                        itemTab[j].classList.remove('on');
+                    }
+                    this.classList.add('on');
+                    // data-cate 속성을 이용하여 필터링
+                    var cate = this.getAttribute('data-cate');
+                    var item = document.querySelectorAll('.portfolio-list li');
+                    for (var k = 0; k < item.length; k++) {
+                        item[k].style.display = 'none';
+                        if (item[k].classList.contains(cate)) {
+                            item[k].style.display = 'block';
+                        } else if (cate == 'all') {
+                            item[k].style.display = 'block';
+                        }
+                    }
+                });
+            }
+        })
+
+        // contact_banner_typing
+        var ContactOptions = {
+            stringsElement: '#contact_banner .title',
+            typeSpeed: 80,
+            startDelay: 1000,
+            loop: false,
+        }
+
+        var ContactTyped = new Typed('#contact_banner .typing02', ContactOptions);
+        ContactTyped.stop();
+
+        if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact_banner').height()) {
+            ContactTyped.start();
+        }
+
+        $(window).on('scroll', function () {
+            if ($(this).scrollTop() > $('.footer').offset().top - $(window).innerHeight() - $('#contact_banner').height()) {
+                ContactTyped.start();
+            }
+        });
+    </script>
+</body>
+
+</html>
