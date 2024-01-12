@@ -118,15 +118,23 @@ body.menu-open {
     padding-top: 15px;
 }
 
-.s2 p{
-    padding-bottom: 30px;
+.s2 .center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vw;
+}
+
+.s2 .center img{
+    display: block;
+    max-width: 100%;
 }
 
 .s4 div p{
     padding: 15px 0;
 }
 
-table{
+/* table{
     border-collapse: collapse;
     width: 100%;
 }
@@ -154,7 +162,7 @@ td::before{
     border-radius: 50%;
     vertical-align: middle;
     margin-right: 20px;
-}
+} */
 
 .s3 .center{
     width: 100%;
@@ -162,7 +170,7 @@ td::before{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 10vw 0;
 }
 
 .s3 .center img{
