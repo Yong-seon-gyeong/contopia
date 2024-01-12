@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="550" viewBox="0 0 840 550">
+  <g id="조직도" transform="translate(-507 -1871)">
+    <g id="그룹_706" data-name="그룹 706" transform="translate(0 -551)">
+      <rect id="사각형_563" data-name="사각형 563" width="250" height="65" transform="translate(802 2422)" fill="#1f4799"/>
+      <text id="CEO" transform="translate(903 2465)" fill="#fff" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">CEO</tspan></text>
+    </g>
+    <g id="그룹_707" data-name="그룹 707" transform="translate(-25 -509)">
+      <rect id="사각형_564" data-name="사각형 564" width="250" height="65" transform="translate(532 2535)" fill="#1f4799"/>
+      <text id="경영기획팀" transform="translate(602 2578)" fill="#fff" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">경영기획팀</tspan></text>
+    </g>
+    <g id="그룹_710" data-name="그룹 710" transform="translate(-33 -513)">
+      <g id="사각형_564-2" data-name="사각형 564" transform="translate(540 2649)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="사업_기획_및_관리" data-name="사업 기획 및 관리" transform="translate(580 2692)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">사업 기획 및 관리</tspan></text>
+    </g>
+    <g id="그룹_713" data-name="그룹 713" transform="translate(-33 -516)">
+      <g id="사각형_564-3" data-name="사각형 564" transform="translate(540 2762)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="비즈니스_모델_설계" data-name="비즈니스 모델 설계" transform="translate(571 2805)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">비즈니스 모델 설계</tspan></text>
+    </g>
+    <g id="그룹_716" data-name="그룹 716" transform="translate(-33 -504)">
+      <g id="사각형_564-4" data-name="사각형 564" transform="translate(540 2860)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="재무_계약_인사관리" data-name="재무/계약/인사관리" transform="translate(568 2903)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">재무/계약/인사관리</tspan></text>
+    </g>
+    <g id="그룹_708" data-name="그룹 708" transform="translate(0 -509)">
+      <rect id="사각형_565" data-name="사각형 565" width="250" height="65" transform="translate(802 2535)" fill="#1f4799"/>
+      <text id="Creative팀" transform="translate(867 2578)" fill="#fff" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">Creative팀</tspan></text>
+    </g>
+    <g id="그룹_711" data-name="그룹 711" transform="translate(-20 -513)">
+      <g id="사각형_565-2" data-name="사각형 565" transform="translate(822 2649)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="영상_촬영" data-name="영상 촬영" transform="translate(900 2692)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">영상 촬영</tspan></text>
+    </g>
+    <g id="그룹_714" data-name="그룹 714" transform="translate(-20 -516)">
+      <g id="사각형_565-3" data-name="사각형 565" transform="translate(822 2762)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="영상_편집" data-name="영상 편집" transform="translate(900 2805)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">영상 편집</tspan></text>
+    </g>
+    <g id="그룹_717" data-name="그룹 717" transform="translate(-20 -504)">
+      <g id="사각형_565-4" data-name="사각형 565" transform="translate(822 2860)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="영상_및_이미지_디자인" data-name="영상 및 이미지 디자인" transform="translate(840 2903)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">영상 및 이미지 디자인</tspan></text>
+    </g>
+    <g id="그룹_709" data-name="그룹 709" transform="translate(25 -509)">
+      <rect id="사각형_566" data-name="사각형 566" width="250" height="65" transform="translate(1072 2535)" fill="#1f4799"/>
+      <text id="C_C팀" data-name="C&amp;C팀" transform="translate(1162 2578)" fill="#fff" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">C&amp;C팀</tspan></text>
+    </g>
+    <g id="그룹_712" data-name="그룹 712" transform="translate(-5 -513)">
+      <g id="사각형_566-2" data-name="사각형 566" transform="translate(1102 2649)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="콘텐츠_기획_및_제작" data-name="콘텐츠 기획 및 제작" transform="translate(1131 2692)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">콘텐츠 기획 및 제작</tspan></text>
+    </g>
+    <g id="그룹_715" data-name="그룹 715" transform="translate(-5 -516)">
+      <g id="사각형_566-3" data-name="사각형 566" transform="translate(1102 2762)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="제품_홍보" data-name="제품 홍보" transform="translate(1180 2805)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">제품 홍보</tspan></text>
+    </g>
+    <g id="그룹_718" data-name="그룹 718" transform="translate(-5 -504)">
+      <g id="사각형_566-4" data-name="사각형 566" transform="translate(1102 2860)" fill="#fff" stroke="#1f4799" stroke-width="1">
+        <rect width="250" height="65" stroke="none"/>
+        <rect x="0.5" y="0.5" width="249" height="64" fill="none"/>
+      </g>
+      <text id="매체_운영_및_기획" data-name="매체 운영 및 기획" transform="translate(1142 2903)" fill="#333" font-size="24" font-family="NotoSansKR-Bold, Noto Sans KR" font-weight="700"><tspan x="0" y="0">매체 운영 및 기획</tspan></text>
+    </g>
+    <path id="패스_3530" data-name="패스 3530" d="M-3105-16750v45.361" transform="translate(4032 18841)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3537" data-name="패스 3537" d="M-3105-16750v45.361" transform="translate(4032 18731)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3540" data-name="패스 3540" d="M-3105-16750v45.361" transform="translate(4032 18686)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3534" data-name="패스 3534" d="M-3105-16750v45.361" transform="translate(-15947.637 5163.501) rotate(90)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3539" data-name="패스 3539" d="M-3105-16750v590.982" transform="translate(-15527.5 5086.001) rotate(90)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3535" data-name="패스 3535" d="M-3105-16750v45.361" transform="translate(-15653 5163.501) rotate(90)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3532" data-name="패스 3532" d="M-3105-16750v45.361" transform="translate(4327 18841)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3538" data-name="패스 3538" d="M-3105-16750v45.361" transform="translate(4327 18731)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3531" data-name="패스 3531" d="M-3105-16750v45.361" transform="translate(3737 18841)" fill="none" stroke="#1f4799" stroke-width="1"/>
+    <path id="패스_3536" data-name="패스 3536" d="M-3105-16750v45.361" transform="translate(3737 18731)" fill="none" stroke="#1f4799" stroke-width="1"/>
+  </g>
+</svg>
